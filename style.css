@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+body{
+    background-color:#202125;
+}
+/* 
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color:#202125;
+    
+} */
+
+.logo{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(53, 53, 53, 0.597);
+    position: relative;
+}
+.logo h1{
+    font-size: 45px;
+    position: absolute;
+    top: 20%;
+    left: 4%;
+}
+.logo h1 span{
+    font-size: 38px;
+    color: red;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo #watchlist {
+    font-size: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration:2px underline red;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+
+.slide-img{
+    margin-left: 40%;
+}
+.btn2{
+    /* background-color: aqua; */
+    width: 50px;
+    height: 50px;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.btn3{
+    /* background-color: aqua; */
+    width: 50px;
+    height: 50px;
+    margin-top: 250px;
+    margin-right: 50px;
+}
+.search-box{
+   width: 70%;
+   height: 100px;
+   /* background-color: aquamarine; */
+   margin: 0 30px;
+}
+input{
+
+    width: 70%;
+    height: 43px;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    margin: 25px 10px 0 0px;
+    border-radius: 10px;
+    color: black;
+}
+
+#btn1{
+    background-color: rgb(223, 31, 31);
+    border: none;
+    width: 120px;
+    height: 55px;
+    /* padding: 10px; */
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.display{
+    width: 71%;
+    min-height: 480px;
+    background-color: #292b30;
+    border-radius: 20px;
+    margin: 10px 0;
+    /* background-color: aqua; */
+}
+.movielist{
+    list-style: none;
+    display: flex;
+    
+}
+.movieDeatils{
+    width: 600px;
+    margin: 20px 0 0 20px;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aqua; */
+
+}
+
+.movieDeatils h3 {
+    color: red;
+}
+.movieDeatils p {
+    font-size: 15px;
+}
+.movie-poster{
+    width: 150px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: -10px;
+    border-radius: 15px;
+}
+
+.add-watchlist{
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    /* font-size: 30px; */
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+.add-watchlist p{
+    font-size: 20px;
+}
+.add-watchlist p span{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.add-watchlist p span i{
+    color: red;
+
+}
+.top-movies{
+
+    width: 350px;
+    height: 670px;
+    background-color:#292b30;
+    border-radius: 20px;   
+    /* position: absolute;
+    top: 95%;
+    left: 78%; */
+    border-radius: 20px;
+
+}
+
+.top-movies-header{
+    width: 100%;
+    height: 60px;
+    background-color:#38393c;
+    border-bottom: 2px solid red;
+    border-radius:20px 20px 0 0 ;
+
+}
+
+.top-movies-header h2{
+    color: red;
+    padding: 10px 20px ;
+    font-size: 30px;
+    
+}
+
+.bestMovies{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -22px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* background-color: aquamarine; */
+}
+
+.top-movie-poster{
+    width: 150px;
+    height: 180px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    /* background-color: aqua; */
+}
+
+.topMovieDeatils {
+    margin: 60px 0 0 20px;
+}
+
+.topMovieDeatils h3{
+    width: 170px;
+    font-size: 18px;
+    color: yellow;
+    /* background-color: red; */
+}
+
+.display-watchlist{
+    width: 71%;
+    min-height: 480px;
+    background-color: #292b30;
+    border-radius: 20px;
+    margin:20px 40px;
+    /* background-color: aqua; */
+}
