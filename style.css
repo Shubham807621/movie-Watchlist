@@ -221,3 +221,33 @@ input{
     margin:20px 40px;
     /* background-color: aqua; */
 }
+
+@media screen and (max-width: 480px){
+
+    .logo h1{
+        font-size: 20px;
+        
+    }
+
+    .logo h1 span{
+        font-size: 15px;
+    }
+
+    .top-movies{
+    display: none;
+    }   
+    .btn2,.btn3{
+       margin-top:50px;
+    }
+    input{
+        width: 170px;
+    }
+    #btn1{
+        width: 75px;
+        height: 35px;
+        font-size: 20px;
+    }
+    .display{
+        margin: 0;
+    }
+}
